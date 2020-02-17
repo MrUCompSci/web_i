@@ -1,0 +1,16 @@
+/*DO NOT DELETE - FOR SWITCH*/
+.style-switcher {
+    background-color : black;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 4px;
+    border-color: black;
+    cursor: pointer; 
+}
+
+/*DO NOT DELETE - FOR SWITCH*/
+#switcher-button {
+    position: fixed;
+    bottom: -4px;
+    right: 10px;
+}
