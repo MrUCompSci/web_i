@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <title>DEMO</title>
+        <meta charset="utf-8">
+        
+        <!--COPY THIS EXACTLY IT'S IMPORTANT FOR THE BUTTON TO WORK-->
+        <link rel="stylesheet"  id = "css-files" type="text/css" href="main.css">
+        <body>
+            
+            <!--COPY THIS AND KEEP IT AT THE BOTTOM OF YOUR BODY ELEMENT-->
+            <div id="switcher-button">
+                <button class="style-switcher" onclick="swapCSS()">Swap CSS</button>
+            </div>
+            <script>
+                var temp = 0;
+                function swapCSS() {
+                    if(temp == 0) {
+                        document.getElementById("css-files").href = "alternate.css";
+                        temp = 1;
+                    } else {
+                        document.getElementById("css-files").href = "main.css";
+                        temp = 0;
+                    }          
+                }
+            </script>
+        </body>
+    </head>
+</html>
