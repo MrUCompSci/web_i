@@ -1,0 +1,15 @@
+/*CSS Switch Button*/
+.style-switcher {
+    background-color : #f7f7f7;
+    color: #1f1f1f;
+    padding: 10px 20px;
+    border-radius: 4px;
+    border-color: #4263f5;
+    cursor: pointer;
+}
+
+#switcher-button {
+    position: fixed;
+    bottom: -4px;
+    right: 10px;
+}
